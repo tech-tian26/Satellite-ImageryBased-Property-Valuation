@@ -1,17 +1,17 @@
-# 🏠 Satellite Imagery Based Property Valuation  
+#  Satellite Imagery Based Property Valuation  
 ### Multimodal Regression using Tabular Data & Satellite Images
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project investigates a **multimodal machine learning approach** for real estate price prediction by combining **structured tabular data** with **satellite imagery**. Traditional automated valuation models rely primarily on numerical features such as property size, quality, and location. This work evaluates whether neighborhood-level visual context, extracted from satellite images, can enhance valuation accuracy and interpretability.
 
 Multiple modeling strategies are explored, including image-only deep learning models, strong tabular baselines, multimodal residual learning, and PCA-based feature fusion. The final predictions are generated using the **best-performing tabular model**.
 
----
+--- 
 
-## 🎯 Objectives
+## Objectives
 
 - Predict property prices using historical housing data  
 - Programmatically acquire satellite images using latitude and longitude  
@@ -22,85 +22,7 @@ Multiple modeling strategies are explored, including image-only deep learning mo
 
 ---
 
-## 📂 Repository Structure
-
-# 🏠 Satellite Imagery Based Property Valuation  
-### Multimodal Regression using Tabular Data & Satellite Images
-
----
-
-## 📌 Project Overview
-
-This project investigates a **multimodal machine learning approach** for real estate price prediction by combining **structured tabular data** with **satellite imagery**. Traditional automated valuation models rely primarily on numerical features such as property size, quality, and location. This work evaluates whether neighborhood-level visual context, extracted from satellite images, can enhance valuation accuracy and interpretability.
-
-Multiple modeling strategies are explored, including image-only deep learning models, strong tabular baselines, multimodal residual learning, and PCA-based feature fusion. The final predictions are generated using the **best-performing tabular model**.
-
----
-
-## 🎯 Objectives
-
-- Predict property prices using historical housing data  
-- Programmatically acquire satellite images using latitude and longitude  
-- Perform tabular, geospatial, and image-based exploratory analysis  
-- Extract visual embeddings using convolutional neural networks (CNNs)  
-- Evaluate multimodal fusion strategies  
-- Ensure model interpretability using Grad-CAM and feature importance  
-
----
-
-## 📂 Repository Structure
-
-# 🏠 Satellite Imagery Based Property Valuation  
-### Multimodal Regression using Tabular Data & Satellite Images
-
----
-
-## 📌 Project Overview
-
-This project investigates a **multimodal machine learning approach** for real estate price prediction by combining **structured tabular data** with **satellite imagery**. Traditional automated valuation models rely primarily on numerical features such as property size, quality, and location. This work evaluates whether neighborhood-level visual context, extracted from satellite images, can enhance valuation accuracy and interpretability.
-
-Multiple modeling strategies are explored, including image-only deep learning models, strong tabular baselines, multimodal residual learning, and PCA-based feature fusion. The final predictions are generated using the **best-performing tabular model**.
-
----
-
-## 🎯 Objectives
-
-- Predict property prices using historical housing data  
-- Programmatically acquire satellite images using latitude and longitude  
-- Perform tabular, geospatial, and image-based exploratory analysis  
-- Extract visual embeddings using convolutional neural networks (CNNs)  
-- Evaluate multimodal fusion strategies  
-- Ensure model interpretability using Grad-CAM and feature importance  
-
----
-
-## 📂 Repository Structure
-
-# 🏠 Satellite Imagery Based Property Valuation  
-### Multimodal Regression using Tabular Data & Satellite Images
-
----
-
-## 📌 Project Overview
-
-This project investigates a **multimodal machine learning approach** for real estate price prediction by combining **structured tabular data** with **satellite imagery**. Traditional automated valuation models rely primarily on numerical features such as property size, quality, and location. This work evaluates whether neighborhood-level visual context, extracted from satellite images, can enhance valuation accuracy and interpretability.
-
-Multiple modeling strategies are explored, including image-only deep learning models, strong tabular baselines, multimodal residual learning, and PCA-based feature fusion. The final predictions are generated using the **best-performing tabular model**.
-
----
-
-## 🎯 Objectives
-
-- Predict property prices using historical housing data  
-- Programmatically acquire satellite images using latitude and longitude  
-- Perform tabular, geospatial, and image-based exploratory analysis  
-- Extract visual embeddings using convolutional neural networks (CNNs)  
-- Evaluate multimodal fusion strategies  
-- Ensure model interpretability using Grad-CAM and feature importance  
-
----
-
-## 📂 Repository Structure
+##  Repository Structure
 
 │
 ├── data_fetcher.py
@@ -146,7 +68,7 @@ Images were downloaded once and reused for all experiments due to API and comput
 
 ---
 
-## 🧪 Modeling Summary
+##  Modeling Summary
 
 ###  Image-Only Model
 - CNN: ResNet-18 (pretrained)
