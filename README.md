@@ -24,12 +24,12 @@ Multiple modeling strategies are explored, including image-only deep learning mo
 
 ##  Repository Structure
 
-│
-├── data_fetcher.py
-├── preprocessing_training.ipynb
-├── enrollno_final.csv
-├── enrollno_report.pdf
-└── README.md
+-│
+-├── data_fetcher.py
+-├── preprocessing_training.ipynb
+-├── enrollno_final.csv
+-├── enrollno_report.pdf
+-└── README.md
 
 
 ### File Description
@@ -117,14 +117,14 @@ The **tabular XGBoost regressor** was selected as the final model for generating
 
 ---
 
-## 🔮 Conclusion
+## Conclusion
 
 This project demonstrates that structured tabular features are the dominant drivers of real estate valuation accuracy, while satellite imagery enhances contextual understanding and interpretability. Multimodal learning is most effective when visual information augments strong tabular models rather than replacing them.
 
 ---
 
-## 👤 Author
+## Author
 
 **Name:** _[Gauri Bhardwaj]_  
 
-✅ This repository is complete, organized, and ready for submission.
+This repository is complete, organized, and ready for submission.
