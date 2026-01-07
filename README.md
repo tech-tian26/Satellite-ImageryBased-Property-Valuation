@@ -31,7 +31,7 @@ Multiple modeling strategies are explored, including image-only deep learning mo
   Data cleaning, feature engineering, and exploratory data analysis (EDA) on tabular and image data.
 
 - **model_training.ipynb**
-  Training and evaluation of:
+  - Training and evaluation of:
   - Image-only CNN (ResNet-18)  
   - Tabular models (XGBoost, Random Forest, Gradient Boosting)  
   - Multimodal residual CNN + tabular model  
